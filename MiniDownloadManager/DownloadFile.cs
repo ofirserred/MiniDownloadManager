@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace MiniDownloadManager
+public class DownloadFile
 {
-    internal class Class1
-    {
-    }
+    public string Title { get; set; }
+    public string ImageURL { get; set; }
+    public string FileURL { get; set; }
+    public int Score { get; set; }
+    public Dictionary<string, int> Validators { get; set; }
 }
